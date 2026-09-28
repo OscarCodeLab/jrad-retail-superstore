@@ -9,10 +9,10 @@
 
 I took 12 source tables (1.8 million transaction lines) and turned them into an interactive dashboard that answers management questions about sales, products, customers, payments, and staff. Along the way I found and fixed real data problems, and where the data could not support a question, I documented that instead of inventing numbers.
 
-![Business Overview](assets/images/jrad-overview.png)
+![Business Overview](jrad-overview.png)
 
 <!-- Optional: add a short screen recording here once you have one
-![Walkthrough](assets/images/jrad-walkthrough.gif) -->
+![Walkthrough](jrad-walkthrough.gif) -->
 
 ---
 
@@ -177,7 +177,7 @@ KPI cards with month-over-month captions, revenue and orders trend, customer val
 **Interpretation:** the December lift is broad-based (more visits *and* bigger baskets), consistent with holiday demand.
 **Next question:** is the lift driven by specific products or branches, or is it a general seasonal effect?
 
-![Business Overview](assets/images/jrad-overview.png)
+![Business Overview](jrad-overview.png)
 
 ### 2. Sales Performance
 
@@ -193,7 +193,7 @@ KPI cards with month-over-month captions, revenue and orders trend, customer val
 **Interpretation:** total revenue tracks traffic (receipts), not basket size, because spend per visit varies little across branches.
 **Next question:** what separates the two higher-basket branches from the rest (product mix, customer mix, pricing)?
 
-![Sales Performance](assets/images/jrad-sales-performance.png)
+![Sales Performance](jrad-sales-performance.png)
 
 ### 3. Product Performance
 
@@ -206,7 +206,7 @@ KPI cards with month-over-month captions, revenue and orders trend, customer val
 **Interpretation:** a small share of the catalog carries most of the revenue, which matters for stocking and promotion priorities.
 **Next question:** are the 209 low-tier and 107 unsold products worth their shelf space?
 
-![Product Performance](assets/images/jrad-product-performance.png)
+![Product Performance](jrad-product-performance.png)
 
 ### 4. Customer Revenue
 
@@ -219,7 +219,7 @@ KPI cards with month-over-month captions, revenue and orders trend, customer val
 **Interpretation:** the business depends on anonymous traffic it cannot track or target, and acquisition channel does not strongly separate customer value.
 **Next question:** what would it take to convert walk-in shoppers into registered ones?
 
-![Customer Revenue](assets/images/jrad-customer-revenue.png)
+![Customer Revenue](jrad-customer-revenue.png)
 
 ### 5. Payment Performance
 
@@ -233,7 +233,7 @@ KPI cards with month-over-month captions, revenue and orders trend, customer val
 **Interpretation:** the payment mix by revenue mirrors the mix by transactions, so method choice doesn't change basket size. The 100% success rate is a property of this dataset (a single status value), not a measured result, so no failure analysis was possible.
 **Next question:** is Transfer's dominance customer preference or a lack of alternatives at the till?
 
-![Payment Performance](assets/images/jrad-payment-performance.png)
+![Payment Performance](jrad-payment-performance.png)
 
 ### 6. Staff Performance (Cashier & Employee)
 
@@ -246,7 +246,7 @@ KPI cards with month-over-month captions, revenue and orders trend, customer val
 **Interpretation:** "busiest", "highest earning", and "highest rated" are three different people, so the rating is not currently measuring sales output.
 **Next question:** what does the performance score actually measure, and should it be weighted against revenue?
 
-![Staff Performance](assets/images/jrad-staff-performance.png)
+![Staff Performance](jrad-staff-performance.png)
 
 ---
 
@@ -301,19 +301,16 @@ The data is synthetic, inspired by Nigerian supermarket operations. All figures 
 ## Repository structure
 
 ```text
-JRAD-Retail-Superstore/
+OscarCodeLab.github.io/
 ├── README.md
-├── jrad-superstore.pbix
-├── assets/
-│   └── images/
-│       ├── jrad-overview.png
-│       ├── jrad-sales-performance.png
-│       ├── jrad-product-performance.png
-│       ├── jrad-customer-revenue.png
-│       ├── jrad-payment-performance.png
-│       └── jrad-staff-performance.png
-└── documentation/
-    └── JRAD_Model_Build_Log.pdf
+├── JRAD.pbix
+├── JRAD_Retail_Analytics_Challenge.txt   (original project brief)
+├── jrad-overview.png
+├── jrad-sales-performance.png
+├── jrad-product-performance.png
+├── jrad-customer-revenue.png
+├── jrad-payment-performance.png
+└── jrad-staff-performance.png
 ```
 
 ---
