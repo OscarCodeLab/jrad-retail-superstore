@@ -1,0 +1,163 @@
+# JRAD Retail Analytics Challenge 2026
+
+> An end-to-end retail analytics project built from scratch and inspired by real-life observations of Nigerian supermarket operations.
+
+## About the Project
+
+JRAD Retail Analytics Challenge 2026 is a simulated multi-branch retail analytics project designed to give aspiring Data Analysts, Analytics Engineers, Data Engineers, and SQL learners a realistic relational dataset for hands-on practice.
+
+Unlike a typical single-file dataset, this project contains multiple interconnected datasets representing different areas of retail operations:
+
+- Sales transactions
+- Receipts
+- Payments
+- Customers
+- Products
+- Pricing history
+- Inventory
+- Employees and cashiers
+- Branch behaviour
+- Monthly shopping behaviour
+- Business and seasonal events
+
+The project was independently designed and developed by **Sodiq Basit Oluwatimileyin**.
+
+It was inspired by observations of Nigerian supermarket operations and translated into a complete simulated data environment using Excel, Python, SQL, and data-modelling techniques.
+
+---
+
+# Project Objective
+
+The goal of this challenge is to allow participants to practice working with a realistic retail database and answer meaningful business questions using SQL.
+
+JRAD is a simulated multi-branch Nigerian retail business operating across five locations.
+Branch_Code	Branch_Name
+BR001		Ajah
+BR002		Egbeda
+BR003		Abule Egba
+BR004		Ikorodu
+BR005		Oju Ore
+
+
+Management wants to better understand:
+
+- What drives revenue?
+- Which products and categories perform best?
+- Which branches generate the highest sales?
+- How do registered and walk-in customers behave differently?
+- Which payment methods are most frequently used?
+- Which products face inventory risks?
+- How do pricing changes affect the business?
+- Which employees and cashiers process the highest transaction volumes?
+- How do branch behaviour and business events influence sales?
+
+# Part 1: Data Quality Assessment
+
+Before performing business analysis, investigate the quality and structure of the data.
+
+Suggested tasks:
+
+1. List all available tables.
+2. Count the number of records in each dataset.
+3. Check for duplicate records.
+4. Identify missing values in important columns.
+5. Validate Product_ID references.
+6. Validate Customer_ID references.
+7. Validate Employee_ID and Cashier_ID references.
+8. Check for negative quantities or invalid sales values.
+9. Reconcile payment totals with receipt or sales totals where appropriate.
+10. Determine the overall date range of the dataset.
+
+---
+
+# Part 2: SQL Business Questions
+
+## A. Sales Performance
+
+1. What is the total revenue generated?
+2. How many unique receipts were generated?
+3. How many transaction line items were recorded?
+4. What is the average transaction value?
+5. Which branch generated the highest revenue?
+6. Rank branches by revenue, receipts and quantity sold.
+7. Which branch has the highest average transaction value?
+8. Which month generated the highest revenue?
+9. Which dates generated the highest number of receipts?
+10. Analyse revenue trends over time.
+
+## B. Product Performance
+
+11. What are the top 10 products by revenue?
+12. What are the top 10 products by quantity sold?
+13. Which categories generate the highest revenue?
+14. Which departments perform best?
+15. Which products generate high revenue despite relatively low sales volume?
+16. Which products generate high sales volume but relatively low revenue?
+17. Which products perform best in specific branches?
+18. Which products are sold across the highest number of branches?
+19. Which popularity tiers generate the strongest performance?
+
+## C. Customer Analysis
+
+20. How many registered and walk-in customers are represented?
+21. What percentage of revenue comes from registered versus walk-in customers?
+22. Compare the average transaction value of registered and walk-in customers.
+23. Who are the top customers by total spending?
+24. Who are the top customers by number of transactions?
+25. How does loyalty membership relate to customer spending?
+26. Which acquisition sources produce the highest-value customers?
+27. Which customer personas are associated with higher spending?
+28. Which shopping missions generate the largest baskets?
+
+## D. Payment Analysis
+
+29. Which payment method is used most frequently?
+30. What percentage of revenue comes from Transfer, POS and Cash?
+31. Which payment method has the highest average transaction value?
+32. Which branches rely most heavily on each payment method?
+33. Analyse payment method usage over time.
+34. Investigate unsuccessful or unusual payment records.
+
+## E. Cashier and Employee Analysis
+
+35. Which cashiers processed the highest number of receipts?
+36. Which cashiers processed the highest transaction value?
+37. Which branches have the highest cashier workload?
+38. Which cashiers handle the highest average transaction value?
+39. Compare transaction activity with employee performance ratings where relevant.
+40. Compare revenue per cashier across branches.
+
+## F. Inventory Analysis
+
+41. How many products are In Stock, Low Stock and Out of Stock?
+42. Which branches have the highest number of out-of-stock products?
+43. Which products have high sales but low remaining inventory?
+44. Identify products at risk of stockout.
+45. Which products have high opening stock but relatively low sales?
+46. Which branches have the highest total current stock?
+
+## G. Pricing and Inflation Analysis
+
+47. How many products experienced price changes?
+48. Which products experienced the highest percentage price increase?
+49. Which categories experienced the highest average price increase?
+50. What are the most common reasons for price changes?
+51. Compare sales performance around pricing changes where possible.
+52. Do highly inflation-sensitive products experience more frequent price changes?
+
+## H. Branch Behaviour and Events
+
+53. Does actual sales performance align with the branch behaviour assumptions?
+54. Do branches with stronger bread demand actually sell more bread?
+55. Do premium-demand branches generate more premium product revenue?
+56. Do family-shopping branches generate larger baskets?
+57. How do business events affect revenue, receipts and basket behaviour?
+58. Compare performance before, during and after selected events.
+59. Did targeted branches or categories benefit during relevant events?
+
+
+If you use this dataset in a portfolio, analysis, dashboard, educational project, publication or derivative work, appropriate attribution is required.
+
+Suggested attribution:
+
+> Dataset created by Sodiq Basit Oluwatimileyin — JRAD Retail Analytics Challenge 2026.
